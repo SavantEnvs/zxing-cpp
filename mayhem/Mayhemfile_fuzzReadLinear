@@ -1,0 +1,6 @@
+project: savantenvs/zxing-cpp
+target: fuzzReadLinear
+cmds:
+  - cmd: /mayhem/fuzzReadLinear
+    libfuzzer: true
+    timeout: 5

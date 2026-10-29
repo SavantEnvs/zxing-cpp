@@ -1,0 +1,6 @@
+project: savantenvs/zxing-cpp
+target: fuzzDecodeMatrix
+cmds:
+  - cmd: /mayhem/fuzzDecodeMatrix
+    libfuzzer: true
+    timeout: 5
