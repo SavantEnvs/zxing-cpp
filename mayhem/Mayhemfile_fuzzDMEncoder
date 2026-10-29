@@ -1,0 +1,6 @@
+project: savantenvs/zxing-cpp
+target: fuzzDMEncoder
+cmds:
+  - cmd: /mayhem/fuzzDMEncoder
+    libfuzzer: true
+    timeout: 5

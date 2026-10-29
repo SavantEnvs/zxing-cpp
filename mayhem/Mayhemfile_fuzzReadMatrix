@@ -1,0 +1,6 @@
+project: savantenvs/zxing-cpp
+target: fuzzReadMatrix
+cmds:
+  - cmd: /mayhem/fuzzReadMatrix
+    libfuzzer: true
+    timeout: 5
